@@ -1,7 +1,7 @@
 import { GetData } from "./utils/getData";
 
 function App() {
-  GetData
+  GetData();
   return (
     <div className="App">
       hola
