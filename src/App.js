@@ -1,11 +1,13 @@
 import { GetData } from "./utils/getData";
+import { FetchQuemado } from "./components/FetchQuemado";
 
 function App() {
   GetData();
   return (
     <div className="App">
-      hola
+     <FetchQuemado/>
     </div>
+  
   );
 }
 
